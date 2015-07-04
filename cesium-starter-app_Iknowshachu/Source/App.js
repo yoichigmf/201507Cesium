@@ -1,3 +1,4 @@
 var viewer = new Cesium.Viewer('cesiumContainer');
 
-viewer.camera.viewRectangle(Cesium.Rectangle.fromDegrees(114.591, -45.837, 148.970, -5.730));
+viewer.dataSource.add(Cesium.KmlDataSource.load('http://http://yoichigmf.github.io/201507Cesium/cesium-starter-app_Iknowshachu/Source/20150703.kml'));
+
